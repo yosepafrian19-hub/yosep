@@ -1,5 +1,4 @@
-
-console.log("BOT / VPS JALAN 🚀");
+console.log("VPS JALAN 🚀");
 
 setInterval(() => {
   console.log("Masih hidup:", new Date());
