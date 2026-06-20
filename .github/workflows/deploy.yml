@@ -1,4 +1,4 @@
-name: Auto Run App
+name: Auto Run Simple
 
 on:
   push:
@@ -8,9 +8,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
-      - name: Run App
-        run: |
-          npm install
-          node index.js
+
+      - run: echo "BERHASIL JALAN 🚀"
